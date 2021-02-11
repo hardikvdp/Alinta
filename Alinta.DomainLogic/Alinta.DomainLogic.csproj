@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alinta.Data\Alinta.Data.csproj" />
+    <ProjectReference Include="..\Alinta.Domain\Alinta.Domain.csproj" />
+    <ProjectReference Include="..\Alinta.Infrastructure\Alinta.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
